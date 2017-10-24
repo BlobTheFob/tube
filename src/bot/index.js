@@ -18,7 +18,7 @@ async function init() {
 		process.exit(0);
 	}
 
-	global.bot = new Eris(config.bot.token, {
+	global.bot = new Eris(process.env.BOT_TOKEN, {
 		firstShardID: cluster.worker.shardStart,
 		lastShardID: cluster.worker.shardEnd,
 		maxShards: cluster.worker.totalShards,
