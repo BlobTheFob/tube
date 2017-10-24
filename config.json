@@ -1,0 +1,19 @@
+{
+        "creators": ["276743581199237121"],
+        "datadog": { "prefix": "oxyl." },
+        "defaultInvitePermissionNumber": 298183686,
+        "donator": {
+                "channel": "254770965018443776",
+                "role": "292657073987125249"
+        },
+        "prefixes": ["y!", "yuno", "mention"],
+        "postStats": false,
+        "serverChannel": "368890759887192094",
+        "shardsPerWorker": 1,
+        "updates": {
+                "channel": "368890759887192094",
+                "guild": "300713868836208662",
+                "role": "368890759887192094"
+        },
+        "websocketServer": false
+}
